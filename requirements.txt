@@ -1,0 +1,10 @@
+# Ce fichier est maintenu pour compatibilité
+# Les dépendances principales sont définies dans pyproject.toml
+# 
+# Pour installer le package en mode développement :
+# pip install -e ".[dev]"
+#
+# Pour installer seulement les dépendances de production :
+# pip install -e .
+#
+# Aucune dépendance externe n'est requise pour ce package en production
