@@ -57,7 +57,7 @@ class TestGetAllCategories:
     def test_contains_expected_categories(self):
         """Test que les catégories attendues sont présentes."""
         categories = get_all_categories()
-        expected = ["sport", "travail", "animaux", "école"]
+        expected = ["sport", "travail", "animaux", "école", "humour"]
         for category in expected:
             assert category in categories
 

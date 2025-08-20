@@ -1,6 +1,8 @@
 # jokepy 🎭
 
 [![Tests](https://github.com/tawounfouet/jokepy/workflows/Tests/badge.svg)](https://github.com/tawounfouet/jokepy/actions)
+[![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen.svg)](https://github.com/tawounfouet/jokepy)
+[![Code Quality](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 [![PyPI version](https://badge.fury.io/py/jokepy.svg)](https://badge.fury.io/py/jokepy)
 [![Python versions](https://img.shields.io/pypi/pyversions/jokepy.svg)](https://pypi.org/project/jokepy/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -37,7 +39,7 @@ print(get_random_joke("sport"))
 
 # Lister les catégories
 print(get_all_categories())
-# ['sport', 'travail', 'animaux', 'école']
+# ['animaux', 'humour', 'sport', 'travail', 'école']
 
 # Compter les blagues
 print(get_jokes_count())  # Total
@@ -50,8 +52,12 @@ print(get_jokes_count("sport"))  # Par catégorie
 # Blague aléatoire
 jokepy
 
+# Plusieurs blagues
+jokepy -n 3
+
 # Blague par catégorie
 jokepy -c sport
+jokepy -c humour -n 2
 
 # Lister les catégories
 jokepy --list-categories
@@ -67,12 +73,14 @@ jokepy --help
 ## 🎯 Fonctionnalités
 
 - ✅ Génération de blagues aléatoires
-- ✅ Support des catégories (sport, travail, animaux, école)
-- ✅ Interface en ligne de commande intuitive
+- ✅ Support des catégories (sport, travail, animaux, école, humour)
+- ✅ Interface en ligne de commande intuitive avec options avancées
+- ✅ Support pour plusieurs blagues à la fois (-n option)
 - ✅ API Python simple et claire
-- ✅ Type hints complets
-- ✅ Tests exhaustifs
+- ✅ Type hints complets avec py.typed
+- ✅ Tests exhaustifs (98% de couverture)
 - ✅ Documentation complète
+- ✅ Code formaté avec Black et validé avec flake8/mypy
 
 ## 🏗️ Développement
 
