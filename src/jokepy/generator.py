@@ -17,6 +17,20 @@ JOKES: List[str] = [
     "Que dit un escargot quand il croise une limace ? 'Regarde le nudiste !'",
     "Pourquoi les poissons n'aiment pas jouer au tennis ? "
     "Parce qu'ils ont peur du filet.",
+    "Comment appelle-t-on un chat tombé dans un pot de peinture le jour de Noël ? "
+    "Un chat-mallow !",
+    "Que dit un informaticien quand il se noie ? F1 ! F1 !",
+    "Pourquoi les développeurs préfèrent-ils le mode sombre ? "
+    "Parce que la lumière attire les bugs !",
+    "Qu'est-ce qui est jaune et qui attend ? Jonathan !",
+    "Comment appelle-t-on un boomerang qui ne revient pas ? Un bâton !",
+    "Pourquoi les professeurs d'histoire n'ont jamais froid ? "
+    "Parce qu'ils sont entourés de Napoléon !",
+    "Que dit un paresseux quand on lui demande de l'aide ? "
+    "Je ne peux pas, j'ai tennis !",
+    "Comment fait-on pour allumer un barbecue breton ? On utilise des breizh !",
+    "Qu'est-ce qu'un cannibale qui mange sa mère ? Un sans-maman !",
+    "Pourquoi les bananes ne parlent pas ? Parce qu'elles ont la banane !",
 ]
 
 # Blagues organisées par catégorie
@@ -26,18 +40,34 @@ JOKES_BY_CATEGORY: Dict[str, List[str]] = {
         "Parce que sinon ils tombent dans le bateau !",
         "Pourquoi les poissons n'aiment pas jouer au tennis ? "
         "Parce qu'ils ont peur du filet.",
+        "Que dit un paresseux quand on lui demande de l'aide ? "
+        "Je ne peux pas, j'ai tennis !",
     ],
     "travail": [
         "Quel est le comble pour un électricien ? De ne pas être au courant.",
         "Que dit une imprimante à une autre ? 'Tu as papier ?'",
+        "Que dit un informaticien quand il se noie ? F1 ! F1 !",
+        "Pourquoi les développeurs préfèrent-ils le mode sombre ? "
+        "Parce que la lumière attire les bugs !",
     ],
     "animaux": [
         "Pourquoi les oiseaux ne prennent-ils pas de médicaments ? "
         "Parce qu'ils ont déjà des ailes.",
         "Que dit un escargot quand il croise une limace ? 'Regarde le nudiste !'",
+        "Comment appelle-t-on un chat tombé dans un pot de peinture le jour de Noël ? "
+        "Un chat-mallow !",
+        "Comment appelle-t-on un boomerang qui ne revient pas ? Un bâton !",
+        "Pourquoi les bananes ne parlent pas ? Parce qu'elles ont la banane !",
     ],
     "école": [
         "Pourquoi les maths sont tristes ? Parce qu'elles ont trop de problèmes.",
+        "Pourquoi les professeurs d'histoire n'ont jamais froid ? "
+        "Parce qu'ils sont entourés de Napoléon !",
+    ],
+    "humour": [
+        "Qu'est-ce qui est jaune et qui attend ? Jonathan !",
+        "Comment fait-on pour allumer un barbecue breton ? On utilise des breizh !",
+        "Qu'est-ce qu'un cannibale qui mange sa mère ? Un sans-maman !",
     ],
 }
 
